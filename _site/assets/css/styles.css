@@ -1,6 +1,9 @@
 .current {
-  color: silver;
+  background-color: gold;
   text-decoration: none;
+  border-radius: 3px;
+  color: black;
+  padding: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */
