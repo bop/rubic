@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA","sourcesContent":[".current {\n    color: silver;\n    text-decoration: none;\n}\n"],"file":"styles.css"}
