@@ -1,8 +1,8 @@
 - name: Accueil
-  link: /rubic/
+  link: /
 - name: About
-  link: /rubic/about.html
+  link: /about.html
 - name: New
-  link: /rubic/new.html
+  link: /new.html
 - name: Blog
-  link: /rubic/blog.html
+  link: /blog.html
