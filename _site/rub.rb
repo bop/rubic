@@ -1,1 +1,0 @@
-puts "Ruby est installé !"

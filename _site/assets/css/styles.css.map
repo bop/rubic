@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA","sourcesContent":[".current {\n    background-color: gold;\n    text-decoration: none;\n    border-radius: 3px;\n    color: black;\n    padding:3px;\n}\n"],"file":"styles.css"}
