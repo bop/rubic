@@ -1,0 +1,14 @@
+.current {
+    background-color: gold;
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+    padding:5px;
+}
+
+a {
+    color: gold;
+    background-color: #444;
+    border-radius: 3px;
+    padding:3px;
+}
