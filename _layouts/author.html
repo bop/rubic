@@ -1,16 +1,13 @@
 ---
 layout: default
 ---
-<h1>Auteur : {{ page.name }}</h1>
-<h2>Rôle : {{ page.position }}</h2>
-<hr /><br />
-<h5>Description : {{ content }}</h5>
-
-<h2>Posts : </h2>
+<h2>Posts de {{ page.name }} ( {{ page.position }}): </h2>
 <ul>
   {% assign filtered_posts = site.posts | where: 'author', page.short_name  %}
   {% for post in filtered_posts %}
-  <li><a href="/rubic{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="/rubic{{ post.url }}">{{ post.title }}</a> </li>
   <br />
   {% endfor %}
 </ul>
+<hr />
+<p> {{ content }}</p>
