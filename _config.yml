@@ -4,3 +4,15 @@ description:        A Ruby theme
 author:             bossip
 baseurl:            "/rubic"
 url:                "https://bop.github.io/"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+       
