@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<h1 class="text-center">Latest Posts</h1>
+<h1 class="shadow text-center">Latest Posts</h1>
 
 <ul>
   {% for post in site.posts %}

@@ -1,12 +1,27 @@
 ---
 layout: default
 ---
-<h1 class="text-center">{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-  <a href="/rubic{{ author.url }}">{{ author.name }}</a>
-    {% endif %}
-</p>
+<h1 class="shadow text-center">{{ page.title }}</h1>
 
-{{ content }}
+<div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-4" tabindex="-1" role="dialog" id="modalChoice">
+  <div class="modal-content p-4">
+
+    <div class="lead modal-body">
+      {{ content }}
+    </div>
+
+  </div>
+</div>
+</div>
+
+<p class="mb-0">Posté par : </p>
+
+{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% if author %} 
+<p class="mb-0">
+  <a href="/rubic{{ author.url }}">{{ author.name }}</a><br />
+  {% endif %} le {{ page.date | date_to_string }}<hr />
+</p>
+</div>
+
+
