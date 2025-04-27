@@ -2,7 +2,7 @@
 layout: default
 title: Accueil
 ---
-<h2>Au sujet :</h2>
+<h2 class="text-center">Au sujet :</h2>
 
 <h3>Jalons</h3>
 <p>

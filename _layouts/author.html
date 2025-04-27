@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h2>Posts de {{ page.name }} ( {{ page.position }}): </h2>
+<h2 class="text-center">Posts de {{ page.name }} ( {{ page.position }}): </h2>
 <ul>
   {% assign filtered_posts = site.posts | where: 'author', page.short_name  %}
   {% for post in filtered_posts %}
