@@ -6,7 +6,7 @@ layout: default
 <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-4" tabindex="-1" role="dialog" id="modalChoice">
   <div class="modal-content p-4">
 
-    <div class="lead modal-body">
+    <div class="lead main modal-body">
       {{ content }}
     </div>
 
@@ -20,7 +20,7 @@ layout: default
 {% if author %} 
 <p class="mb-0">
   <a href="/rubic{{ author.url }}">{{ author.name }}</a><br />
-  {% endif %} le {{ page.date | date_to_string }}<hr />
+  {% endif %} le {{ page.date | date_to_string }}<hr class="position-relative py-2 px-4 start-50 translate-middle" />
 </p>
 </div>
 

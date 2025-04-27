@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 <h1 class="shadow text-center">Latest Posts</h1>
-
+<br />
 <ul>
   {% for post in site.posts %}
     <li>
@@ -12,3 +12,6 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
+<br />
+<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+<br />

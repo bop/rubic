@@ -13,3 +13,17 @@ a {
     padding:3px;
     margin-right: 5%;
 }
+
+hr{
+    color: #0baa83;
+    width: 95%;
+}
+
+.demo {
+    width: 55%;
+}
+
+.main {
+    margin: 0 5% 0 5%;
+    text-indent: 3em;
+}
