@@ -10,8 +10,13 @@ a {
     color: gold;
     background-color: #444;
     border-radius: 3px;
-    padding:3px;
+    padding: 5px;
     margin-right: 5%;
+}
+
+a:hover {
+    color: #444;
+    background-color: gold;
 }
 
 hr{
