@@ -10,3 +10,21 @@ dumb: 1 + 2
 <br />
 0 - 0 =
 <br />
+<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+<h3 class="text-center">{{ page.title }} csv data</h3>
+<table class="table">
+  {% for row in site.data.authors %}
+    {% if forloop.first %}
+    <tr class="table-success">
+      {% for pair in row %}
+        <th class="table-success">{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+    
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
