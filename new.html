@@ -4,29 +4,97 @@ title: New
 dumb: 1 + 2
 ---
 <div class="container">
-<h2 class="text-center">CSV data</h2>
-<table class="table">
-  {% for row in site.data.authors %}
+  <h2 class="text-center">CSV data</h2>
+  <table class="table">
+    {% for row in site.data.authors %}
     {% if forloop.first %}
     <tr class="table-success">
       {% for pair in row %}
-        <th class="table-success">{{ pair[0] }}</th>
+      <th class="table-success">{{ pair[0] }}</th>
       {% endfor %}
     </tr>
     {% endif %}
     
     {% tablerow pair in row %}
-      {{ pair[1] }}
+    {{ pair[1] }}
     {% endtablerow %}
-  {% endfor %}
-</table>
-<br />
-<h3 class="text-center">{{ page.title }} :</h3>
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
-<p>This page tells you all about yesterday news.</p>
-{{ page.dumb }} = 3
-<br />
-0 - 0 =
-<br />
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+    {% endfor %}
+  </table>
+  <br />
+  <h3 class="text-center">{{ page.title }} :</h3>
+  <hr class="position-relative py-2 px-4 start-50 translate-middle" />
+  <p>This page tells you all about yesterday news.</p>
+  {{ page.dumb }} = 3
+  <br />
+  0 - 0 =
+  <br />
+  <hr class="position-relative py-2 px-4 start-50 translate-middle" />
+
+
+  <div class="container">
+    <div class="main">
+      <h1>Mon Année de Poésie</h1>
+      <div class="col-lg-8 px-0">
+	<p class="fs-5">Comédie en quatre parties</p>
+	<p>En cours d'élaboration ...</p>
+
+	<hr />
+
+	<div class="row">
+	  <div class="col-sm-6 mb-3 mb-sm-0">
+	    <div class="card border-dark mb-3" style="max-width: 254rem;">
+	      <div class="card-header lead">Été</div>
+	      <div class="card-body">
+		<h5 class="card-title">Première Partie</h5>
+		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<hr>
+		<a href="#" class="card-link">Card link</a>
+		      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-sm-6 mb-3 mb-sm-0">
+	    <div class="card border-warning mb-3" style="max-width: 24rem;">
+	      <div class="card-header">Automne</div>
+	      <div class="card-body">
+		<h5 class="card-title">Deuxième Partie</h5>
+		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<hr>
+		<a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-sm-6 mb-3 mb-sm-0">
+	    <div class="card border-warning mb-3" style="max-width: 24rem;">
+	      <div class="card-header">Hiver</div>
+	      <div class="card-body">
+		<h5 class="card-title">Troisième Partie</h5>
+		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<hr>
+		<a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="col-sm-6 mb-3 mb-sm-0">
+	    <div class="card border-dark mb-3" style="max-width: 24rem;">
+	      <div class="card-header">Printemps</div>
+	      <div class="card-body">
+		<h5 class="card-title text-center">Dernière Partie</h5>
+		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<hr>
+		<a href="#" class="card-link">Card link</a>
+	      </div>
+	    </div>
+	  </div>
+	  
+	</div>
+<br />	<br />	
+	
+<br />	      </div>
+    </div>
+<br />	
+  </div><br />	
 </div>
+<br />	
