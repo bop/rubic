@@ -1,8 +1,8 @@
 - name: Accueil
   link: /
-- name: Démo-
+- name: Mission
   link: /about.html
-- name: cratie
+- name: Tableaux
   link: /new.html
 - name: Blog
   link: /blog.html

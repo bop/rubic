@@ -3,15 +3,8 @@ layout: default
 title: New
 dumb: 1 + 2
 ---
-<h2 class="text-center">Nouveautés :</h2>
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
-<p>This page tells you all about yesterday news.</p>
-{{ page.dumb }} = 3
-<br />
-0 - 0 =
-<br />
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
-<h3 class="text-center">{{ page.title }} csv data</h3>
+<div class="container">
+<h2 class="text-center">{{ page.title }} csv data</h2>
 <table class="table">
   {% for row in site.data.authors %}
     {% if forloop.first %}
@@ -27,4 +20,13 @@ dumb: 1 + 2
     {% endtablerow %}
   {% endfor %}
 </table>
-
+<br />
+<h3 class="text-center">Nouveautés :</h3>
+<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+<p>This page tells you all about yesterday news.</p>
+{{ page.dumb }} = 3
+<br />
+0 - 0 =
+<br />
+<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+</div>
