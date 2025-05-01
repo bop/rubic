@@ -1,3 +1,10 @@
+body {
+  font-family: "Century Schoolbook", Times, serif;
+  font-size: 115%;
+  color: black;
+
+}
+
 .current {
     background-color: gold;
     text-decoration: none;
@@ -34,7 +41,12 @@ hr{
     text-indent: 3em;
 }
 
+.nope {
+    text-indent: 0px;
+}
+
 h1,h2,h3{
     color: #0baa83;
     padding: 1%;
 }
+
