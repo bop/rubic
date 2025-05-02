@@ -21,6 +21,11 @@ a {
     margin-right: 2.5%;
 }
 
+.card-link {
+    background-color: #FFF;
+    margin-left: 35%;
+}
+
 a:hover {
     color: #444;
     background-color: gold;
