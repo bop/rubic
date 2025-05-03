@@ -19,7 +19,7 @@ layout: default
 {% assign author = site.authors | where: 'short_name', page.author | first %}
 {% if author %} 
 <p class="mb-0">
-  <a href="/rubic{{ author.url }}">{{ author.name }}</a><br />
+  <a href="{{ author.url }}">{{ author.name }}</a><br />
   {% endif %} le {{ page.date | date_to_string }}<hr class="position-relative py-2 px-4 start-50 translate-middle" />
 </p>
 </div>

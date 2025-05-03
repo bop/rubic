@@ -9,7 +9,7 @@ title: Blog
 <ul class="nope">
   {% for post in site.posts %}
     <li>
-      <h3 class="small"><a href="/rubic{{ post.url }}">{{ post.title }}</a></h3>
+      <h3 class="small"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
     </li>
   {% endfor %}
