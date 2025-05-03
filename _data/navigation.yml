@@ -1,8 +1,6 @@
 - name: Accueil
   link: /
 - name: Mission
-  link: /about.html
-- name: Tableaux
   link: /new.html
 - name: Blog
   link: /blog.html
