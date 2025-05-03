@@ -2,20 +2,22 @@
 layout: default
 title: Blog
 ---
-<h2 class="shadow text-center">Latest Posts</h2>
+<h2 class="shadow text-center">Jalons</h2>
 <br />
 <div class="main">
 <div class="modal modal-content">
-<ul class="nope">
+<ul class="nope col-10 row">
+	<br />
   {% for post in site.posts %}
     <li>
-      <h3 class="small"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<br />
+<h3 class="small"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
     </li>
+<hr class="position-relative py-2 px-4 start-50 translate-middle" />
   {% endfor %}
 </ul>
 <br />
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
 <br />
 </div>
 </div>

@@ -39,6 +39,7 @@ hr{
 .demo {
     width: 95%;
     margin: 5%;
+    font-size: 80%;
 }
 
 .main {
@@ -48,6 +49,8 @@ hr{
 
 .nope {
     text-indent: 0px;
+    list-style: none;
+    margin-left: 7.5%;
 }
 
 h1,h2,h3{
