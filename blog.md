@@ -5,7 +5,7 @@ title: Blog
 <h2 class="shadow text-center">Jalons</h2>
 <br />
 <div class="main">
-<div class="modal modal-content">
+<div class="modal modal-content border-secondary">
 <ul class="nope col-10 row">
 	<br />
   {% for post in site.posts %}
