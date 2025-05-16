@@ -1,9 +1,9 @@
 title:              Rubic
-email:              baptiste.ossipow@gmail.com
+email:              sysadmin@poeisis.site
 description:        A Ruby theme
 author:             bossip
-baseurl:            "/rubic"
-url:                "https://bop.github.io/"
+baseurl:            "/"
+url:                "https://poiesis.site/"
 
 collections:
   authors:

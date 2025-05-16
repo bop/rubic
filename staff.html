@@ -4,17 +4,18 @@ title: Contributeurs
 ---
 <h2 class="shadow text-center">Page du staff</h2>
 <br />
-<div class="modal modal-content p-4">
-<ul>
-  {% for author in site.authors %}
-  <li>
-    <h2><a href="/rubic{{ author.url }}">{{ author.name }}</a></h2>
-    <h4>{{ author.position }}</h4>
-    <p>{{ author.content | markdownify }}</p>
-  </li>
-  {% endfor %}
-</ul>
-<br />
-<hr class="position-relative py-2 px-4 start-50 translate-middle" />
-<br /><br />
+<div class="modal modal-content p-4 border-success">
+  <ul>
+    {% for author in site.authors %}
+    <li>
+      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+      <h4>{{ author.position }}</h4>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+    <hr />
+    {% endfor %}
+  </ul>
+  <br />
+
+  <br /><br />
 </div>

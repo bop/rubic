@@ -3,10 +3,11 @@ layout: default
 ---
 <h2 class="shadow text-center">{{ page.title }}</h2>
 
-<div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-4" tabindex="-1" role="dialog" id="modalChoice">
+<div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-4" tabindex="-1" role="dialog" id="modalChoice">  
   <div class="modal-content p-4">
 
     <div class="lead main modal-body">
+      <br />
       {{ content }}
     </div>
 
@@ -19,8 +20,8 @@ layout: default
 {% assign author = site.authors | where: 'short_name', page.author | first %}
 {% if author %} 
 <p class="mb-0">
-  <a href="/rubic{{ author.url }}">{{ author.name }}</a><br />
-  {% endif %} le {{ page.date | date_to_string }}<hr class="position-relative py-2 px-4 start-50 translate-middle" />
+  <a href="{{ author.url }}">{{ author.name }}</a><br />
+  {% endif %} le {{ page.date | date_to_string }}
 </p>
 </div>
 

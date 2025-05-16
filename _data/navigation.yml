@@ -1,10 +1,8 @@
 - name: Accueil
   link: /
-- name: Mission
-  link: /about.html
-- name: Tableaux
+- name: New
   link: /new.html
-- name: Blog
+- name: Étapes
   link: /blog.html
 - name: Staff
   link: /staff.html
