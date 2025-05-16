@@ -1,4 +1,6 @@
 _site/
+.gitconfig
+*.*~
 .ruby-version
 .sass-cache/
 .jekyll-cache/
