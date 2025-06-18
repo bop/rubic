@@ -3,7 +3,7 @@ email:              sysadmin@poeisis.site
 description:        A Ruby theme
 author:             bossip
 baseurl:            "/"
-url:                "https://poiesis.site/"
+url:                "https://delect.surge.sh/"
 
 collections:
   authors:
